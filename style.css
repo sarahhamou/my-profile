@@ -1,0 +1,96 @@
+body {
+	background-color: #b5838d;
+	color: rgb(60, 60, 60, 1);
+	front-family: 'Lora, serif'
+	front-size:17px;
+
+}
+
+h2,h3 {
+	font-family: 'Playfair Display';}
+h1 {
+	color: #6d6875;
+	font-family: 'Noto Serif JP'
+	letter-spacing: 5px;
+	front-size: 32px;
+	text-justify: center;
+	texte-transform: uppercase;
+	font-weight: 600;
+}
+
+.container {
+    max-width: 870px;
+    margin: 40px auto;
+}
+
+@media (max-width: 900px) {
+    .container {
+        max-width: 80%; /* Utilisez une valeur relative pour s'adapter à la largeur de l'écran */
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        max-width: 90%; /* Réduisez davantage la largeur pour les petits écrans */
+    }
+}
+
+.class1 {
+    max-width: 870px;
+    margin: 40px auto;
+}
+
+@media (max-width: 900px) {
+    .class1 {
+        max-width: 80%; /* Utilisez une valeur relative pour s'adapter à la largeur de l'écran */
+    }
+}
+
+@media (max-width: 500px) {
+    .class1 {
+        max-width: 90%; /* Réduisez davantage la largeur pour les petits écrans */
+    }
+}
+
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(to bottom, #f7f0f5, #ccc); 
+    color: #333; /* Couleur du texte */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+.button-link:hover {
+    background: linear-gradient(to bottom, #ccc, #b5b5b5);}
+
+
+
+
+
+
+h2 {
+	color: #e5989b;
+	font-size: 24px;s
+	font-weight: lighter;
+	font-weight: bold;
+	font-weight: 800;
+	font-family: 'Playfair Display'
+}
+
+h4 { 
+	front-family:'Lora, serif';
+
+}
+a: { 
+	font-family: 'Lora, serif;'
+	color: #ffcdb2;
+	font-weight: bolder;
+	text-decoration: none;
+}
+a:{ hover 
+	color: #ffb4a2;
+	font-weight: bold;
+}
+
